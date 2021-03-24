@@ -1,0 +1,24 @@
+2021-03-24T04:40:03+00:00 CRITICAL Uncaught WooCommerce\PayPalCommerce\ApiClient\Exception\PayPalApiException: [INVALID_REQUEST] Request is not well-formed, syntactically incorrect, or violates schema. in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php:112
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/Render/class-onboardingrenderer.php(66): WooCommerce\PayPalCommerce\ApiClient\Endpoint\PartnerReferrals->signup_link()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboarding-rest-controller.php(311): WooCommerce\PayPalCommerce\Onboarding\Render\OnboardingRenderer->get_signup_link(true)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboa in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php on line 112
+
+2021-03-24T04:59:58+00:00 CRITICAL Uncaught WooCommerce\PayPalCommerce\ApiClient\Exception\PayPalApiException: [INVALID_REQUEST] Request is not well-formed, syntactically incorrect, or violates schema. in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php:112
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/Render/class-onboardingrenderer.php(66): WooCommerce\PayPalCommerce\ApiClient\Endpoint\PartnerReferrals->signup_link()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboarding-rest-controller.php(311): WooCommerce\PayPalCommerce\Onboarding\Render\OnboardingRenderer->get_signup_link(true)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboa in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php on line 112
+
+2021-03-24T05:33:13+00:00 CRITICAL Uncaught WooCommerce\PayPalCommerce\ApiClient\Exception\PayPalApiException: [INVALID_REQUEST] Request is not well-formed, syntactically incorrect, or violates schema. in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php:112
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/Render/class-onboardingrenderer.php(66): WooCommerce\PayPalCommerce\ApiClient\Endpoint\PartnerReferrals->signup_link()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboarding-rest-controller.php(311): WooCommerce\PayPalCommerce\Onboarding\Render\OnboardingRenderer->get_signup_link(true)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboa in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php on line 112
+
+2021-03-24T12:28:20+00:00 CRITICAL Cannot redeclare change_default_checkout_country() (previously declared in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php:126) in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 146
+
+2021-03-24T12:28:20+00:00 CRITICAL Cannot redeclare change_default_checkout_country() (previously declared in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php:126) in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 146
+
+2021-03-24T12:28:38+00:00 CRITICAL Cannot redeclare change_default_checkout_country() (previously declared in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php:126) in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 146
+

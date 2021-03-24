@@ -1,0 +1,1121 @@
+2021-03-24T06:54:05+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2021-03-24T06:54:11+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T06:54:12+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi request: Array
+(
+    [email] => dev-email@flywheel.local
+    [description] => Name: jkhikh seert, Username: admin
+    [name] => jkhikh seert
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2021-03-24T06:54:13+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T06:54:14+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 137 for the amount of 53
+====End Log====
+
+
+2021-03-24T06:54:14+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:15+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:17+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T06:54:18+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi request: Array
+(
+    [email] => dev-email@flywheel.local
+    [description] => Name: jkhikh seert, Username: admin
+    [name] => jkhikh seert
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2021-03-24T06:54:19+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T06:54:19+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 137 for the amount of 53
+====End Log====
+
+
+2021-03-24T06:54:19+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:20+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:24+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T06:54:24+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T06:54:26+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 137 for the amount of 53
+====End Log====
+
+
+2021-03-24T06:54:26+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:27+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:31+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T06:54:32+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T06:54:33+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 137 for the amount of 53
+====End Log====
+
+
+2021-03-24T06:54:33+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:34+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:39+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T06:54:41+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T06:54:42+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 137 for the amount of 53
+====End Log====
+
+
+2021-03-24T06:54:42+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:44+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:46+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T06:54:48+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T06:54:49+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 137 for the amount of 53
+====End Log====
+
+
+2021-03-24T06:54:49+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:54+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQOhSFOYcTdVByArwpZfAj/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T06:54:56+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [message] => Non-INR transactions in India should have shipping/billing address outside India. More info here: https://stripe.com/docs/india-exports
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_1IYQOhSFOYcTdVByArwpZfAj
+                    [object] => payment_intent
+                    [amount] => 5300
+                    [amount_capturable] => 0
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/charges?payment_intent=pi_1IYQOhSFOYcTdVByArwpZfAj
+                        )
+
+                    [client_secret] => pi_1IYQOhSFOYcTdVByArwpZfAj_secret_smIQkpquLFHhBDh5elrSg6ZVW
+                    [confirmation_method] => automatic
+                    [created] => 1616568055
+                    [currency] => gbp
+                    [customer] => cus_JAlbVaSWJkqjgi
+                    [description] => WooCommerce New site - Order 137
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [message] => Non-INR transactions in India should have shipping/billing address outside India. More info here: https://stripe.com/docs/india-exports
+                            [shield_action] => reject
+                            [shield_failure] => 1
+                            [source] => stdClass Object
+                                (
+                                    [id] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+                                    [object] => source
+                                    [amount] => 
+                                    [card] => stdClass Object
+                                        (
+                                            [exp_month] => 3
+                                            [exp_year] => 2025
+                                            [last4] => 4242
+                                            [country] => US
+                                            [brand] => Visa
+                                            [address_line1_check] => pass
+                                            [address_zip_check] => pass
+                                            [cvc_check] => pass
+                                            [funding] => credit
+                                            [fingerprint] => C6qRmPomMU0DNxzK
+                                            [three_d_secure] => optional
+                                            [name] => 
+                                            [tokenization_method] => 
+                                            [dynamic_last4] => 
+                                        )
+
+                                    [client_secret] => src_client_secret_QFhlmf9AdBXNuHIxaX4ANSEo
+                                    [created] => 1616566811
+                                    [currency] => 
+                                    [customer] => cus_JAlbVaSWJkqjgi
+                                    [flow] => none
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [owner] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => lucknow
+                                                    [country] => IN
+                                                    [line1] => ghtfrtf
+                                                    [line2] => 
+                                                    [postal_code] => 226022
+                                                    [state] => UP
+                                                )
+
+                                            [email] => dev-email@flywheel.local
+                                            [name] => jkhikh seert
+                                            [phone] => 09935245878
+                                            [verified_address] => 
+                                            [verified_email] => 
+                                            [verified_name] => 
+                                            [verified_phone] => 
+                                        )
+
+                                    [statement_descriptor] => 
+                                    [status] => chargeable
+                                    [type] => card
+                                    [usage] => reusable
+                                )
+
+                            [type] => invalid_request_error
+                        )
+
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [customer_name] => jkhikh seert
+                            [customer_email] => dev-email@flywheel.local
+                            [order_id] => 137
+                            [site_url] => http://localhost:10036
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => lucknow
+                                    [country] => IN
+                                    [line1] => ghtfrtf
+                                    [line2] => 
+                                    [postal_code] => 226022
+                                    [state] => UP
+                                )
+
+                            [carrier] => 
+                            [name] => jkhikh seert
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [shield_action] => reject
+            [shield_failure] => 1
+            [source] => stdClass Object
+                (
+                    [id] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+                    [object] => source
+                    [amount] => 
+                    [card] => stdClass Object
+                        (
+                            [exp_month] => 3
+                            [exp_year] => 2025
+                            [last4] => 4242
+                            [country] => US
+                            [brand] => Visa
+                            [address_line1_check] => pass
+                            [address_zip_check] => pass
+                            [cvc_check] => pass
+                            [funding] => credit
+                            [fingerprint] => C6qRmPomMU0DNxzK
+                            [three_d_secure] => optional
+                            [name] => 
+                            [tokenization_method] => 
+                            [dynamic_last4] => 
+                        )
+
+                    [client_secret] => src_client_secret_QFhlmf9AdBXNuHIxaX4ANSEo
+                    [created] => 1616566811
+                    [currency] => 
+                    [customer] => cus_JAlbVaSWJkqjgi
+                    [flow] => none
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [owner] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => lucknow
+                                    [country] => IN
+                                    [line1] => ghtfrtf
+                                    [line2] => 
+                                    [postal_code] => 226022
+                                    [state] => UP
+                                )
+
+                            [email] => dev-email@flywheel.local
+                            [name] => jkhikh seert
+                            [phone] => 09935245878
+                            [verified_address] => 
+                            [verified_email] => 
+                            [verified_name] => 
+                            [verified_phone] => 
+                        )
+
+                    [statement_descriptor] => 
+                    [status] => chargeable
+                    [type] => card
+                    [usage] => reusable
+                )
+
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2021-03-24T07:35:08+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2021-03-24T07:35:16+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T07:35:17+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi request: Array
+(
+    [email] => dev-email@flywheel.local
+    [description] => Name: jkhikh seert, Username: admin
+    [name] => jkhikh seert
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2021-03-24T07:35:17+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T07:35:18+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 136 for the amount of 71
+====End Log====
+
+
+2021-03-24T07:35:18+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:19+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:21+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T07:35:22+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi request: Array
+(
+    [email] => dev-email@flywheel.local
+    [description] => Name: jkhikh seert, Username: admin
+    [name] => jkhikh seert
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2021-03-24T07:35:23+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T07:35:23+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 136 for the amount of 71
+====End Log====
+
+
+2021-03-24T07:35:23+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:24+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:27+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T07:35:28+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T07:35:29+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 136 for the amount of 71
+====End Log====
+
+
+2021-03-24T07:35:29+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:30+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:34+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T07:35:35+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T07:35:35+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 136 for the amount of 71
+====End Log====
+
+
+2021-03-24T07:35:35+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:36+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:42+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T07:35:42+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T07:35:43+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 136 for the amount of 71
+====End Log====
+
+
+2021-03-24T07:35:43+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:44+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:45+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+)
+
+====End Log====
+
+
+2021-03-24T07:35:46+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+sources/src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+====End Log====
+
+
+2021-03-24T07:35:47+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Info: Begin processing payment for order 136 for the amount of 71
+====End Log====
+
+
+2021-03-24T07:35:47+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:48+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+payment_intents/pi_1IYQ4kSFOYcTdVByk66wzAoe/confirm request: Array
+(
+    [source] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+)
+
+====End Log====
+
+
+2021-03-24T07:35:49+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [message] => Non-INR transactions in India should have shipping/billing address outside India. More info here: https://stripe.com/docs/india-exports
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_1IYQ4kSFOYcTdVByk66wzAoe
+                    [object] => payment_intent
+                    [amount] => 7100
+                    [amount_capturable] => 0
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/charges?payment_intent=pi_1IYQ4kSFOYcTdVByk66wzAoe
+                        )
+
+                    [client_secret] => pi_1IYQ4kSFOYcTdVByk66wzAoe_secret_612rGIAdDPJo1nkZ2j4pqp2cN
+                    [confirmation_method] => automatic
+                    [created] => 1616566818
+                    [currency] => gbp
+                    [customer] => cus_JAlbVaSWJkqjgi
+                    [description] => WooCommerce New site - Order 136
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [message] => Non-INR transactions in India should have shipping/billing address outside India. More info here: https://stripe.com/docs/india-exports
+                            [shield_action] => reject
+                            [shield_failure] => 1
+                            [source] => stdClass Object
+                                (
+                                    [id] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+                                    [object] => source
+                                    [amount] => 
+                                    [card] => stdClass Object
+                                        (
+                                            [exp_month] => 3
+                                            [exp_year] => 2025
+                                            [last4] => 4242
+                                            [country] => US
+                                            [brand] => Visa
+                                            [address_line1_check] => pass
+                                            [address_zip_check] => pass
+                                            [cvc_check] => pass
+                                            [funding] => credit
+                                            [fingerprint] => C6qRmPomMU0DNxzK
+                                            [three_d_secure] => optional
+                                            [name] => 
+                                            [tokenization_method] => 
+                                            [dynamic_last4] => 
+                                        )
+
+                                    [client_secret] => src_client_secret_QFhlmf9AdBXNuHIxaX4ANSEo
+                                    [created] => 1616566811
+                                    [currency] => 
+                                    [customer] => cus_JAlbVaSWJkqjgi
+                                    [flow] => none
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [owner] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => lucknow
+                                                    [country] => IN
+                                                    [line1] => ghtfrtf
+                                                    [line2] => 
+                                                    [postal_code] => 226022
+                                                    [state] => UP
+                                                )
+
+                                            [email] => dev-email@flywheel.local
+                                            [name] => jkhikh seert
+                                            [phone] => 09935245878
+                                            [verified_address] => 
+                                            [verified_email] => 
+                                            [verified_name] => 
+                                            [verified_phone] => 
+                                        )
+
+                                    [statement_descriptor] => 
+                                    [status] => chargeable
+                                    [type] => card
+                                    [usage] => reusable
+                                )
+
+                            [type] => invalid_request_error
+                        )
+
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [customer_name] => jkhikh seert
+                            [customer_email] => dev-email@flywheel.local
+                            [order_id] => 136
+                            [site_url] => http://localhost:10036
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => lucknow
+                                    [country] => IN
+                                    [line1] => ghtfrtf
+                                    [line2] => 
+                                    [postal_code] => 226022
+                                    [state] => UP
+                                )
+
+                            [carrier] => 
+                            [name] => jkhikh seert
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [shield_action] => reject
+            [shield_failure] => 1
+            [source] => stdClass Object
+                (
+                    [id] => src_1IYQ4dSFOYcTdVBy7Wo2y0sv
+                    [object] => source
+                    [amount] => 
+                    [card] => stdClass Object
+                        (
+                            [exp_month] => 3
+                            [exp_year] => 2025
+                            [last4] => 4242
+                            [country] => US
+                            [brand] => Visa
+                            [address_line1_check] => pass
+                            [address_zip_check] => pass
+                            [cvc_check] => pass
+                            [funding] => credit
+                            [fingerprint] => C6qRmPomMU0DNxzK
+                            [three_d_secure] => optional
+                            [name] => 
+                            [tokenization_method] => 
+                            [dynamic_last4] => 
+                        )
+
+                    [client_secret] => src_client_secret_QFhlmf9AdBXNuHIxaX4ANSEo
+                    [created] => 1616566811
+                    [currency] => 
+                    [customer] => cus_JAlbVaSWJkqjgi
+                    [flow] => none
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [owner] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => lucknow
+                                    [country] => IN
+                                    [line1] => ghtfrtf
+                                    [line2] => 
+                                    [postal_code] => 226022
+                                    [state] => UP
+                                )
+
+                            [email] => dev-email@flywheel.local
+                            [name] => jkhikh seert
+                            [phone] => 09935245878
+                            [verified_address] => 
+                            [verified_email] => 
+                            [verified_name] => 
+                            [verified_phone] => 
+                        )
+
+                    [statement_descriptor] => 
+                    [status] => chargeable
+                    [type] => card
+                    [usage] => reusable
+                )
+
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2021-03-24T07:35:49+00:00 DEBUG 
+====Stripe Version: 5.0.0====
+====Start Log====
+customers/cus_JAlbVaSWJkqjgi/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
