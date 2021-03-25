@@ -1,0 +1,63 @@
+2021-03-25T04:08:14+00:00 CRITICAL syntax error, unexpected ';' in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 241
+
+2021-03-25T04:08:15+00:00 CRITICAL syntax error, unexpected ';' in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 241
+
+2021-03-25T04:08:15+00:00 CRITICAL syntax error, unexpected ';' in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 241
+
+2021-03-25T04:16:14+00:00 CRITICAL Object of class WooCommerce could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 260
+
+2021-03-25T04:16:37+00:00 CRITICAL Object of class WooCommerce could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 260
+
+2021-03-25T04:17:05+00:00 CRITICAL Object of class WooCommerce could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 261
+
+2021-03-25T04:17:23+00:00 CRITICAL Object of class WooCommerce could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 262
+
+2021-03-25T04:17:36+00:00 CRITICAL Object of class WooCommerce could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 262
+
+2021-03-25T04:17:52+00:00 CRITICAL Object of class WooCommerce could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 262
+
+2021-03-25T05:30:32+00:00 CRITICAL Object of class WP_Post could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 377
+
+2021-03-25T06:02:27+00:00 CRITICAL Uncaught Error: Call to a member function get_used_coupons() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php:433
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-settings.php(528): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-config.php(77): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-load.php(37): require_once('/home/cedcoss/L...')
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/admin-ajax.php(22): require_once('/home/cedcoss/L...')
+#4 {main}
+  thrown in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 433
+
+2021-03-25T07:29:05+00:00 CRITICAL Object of class WP_Taxonomy could not be converted to string in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/customizationwooplugin/customizationwooplugin.php on line 151
+
+2021-03-25T07:31:07+00:00 CRITICAL Uncaught Error: Call to undefined function push() in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/customizationwooplugin/customizationwooplugin.php:148
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): wc_show_attribute_links('')
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/meta.php(38): do_action('woocommerce_pro...')
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1587): in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/customizationwooplugin/customizationwooplugin.php on line 148
+
+2021-03-25T11:45:36+00:00 CRITICAL Uncaught Error: Call to undefined function postmeta_img_update() in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php:279
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): misha_option_group('')
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-variations.php(51): do_action('woocommerce_var...')
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(180): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plug in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php on line 279
+
+2021-03-25T13:10:01+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme//libraries/action-scheduler/action-scheduler.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/functions.php on line 396
+
+2021-03-25T13:12:24+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/functions.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
+2021-03-25T13:12:24+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/functions.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
+2021-03-25T13:13:37+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/functions.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
+2021-03-25T13:14:01+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/functions.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
+2021-03-25T13:15:38+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/functions.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
+2021-03-25T13:16:01+00:00 CRITICAL require_once(): Failed opening required '/home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/functions.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/libraries/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
