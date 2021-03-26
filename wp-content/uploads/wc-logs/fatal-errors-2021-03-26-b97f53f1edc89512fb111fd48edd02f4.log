@@ -1,0 +1,141 @@
+2021-03-26T05:15:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Customer as array in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php:102
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): custom_orders_list_column_content('my-column1', 326)
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-posts-list-table.php(1282): do_action('manage_shop_ord...', 'my-column1', 326)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-list-table.php(1447): WP_Posts_List_Table->column_default(Object(WP_Post), 'my-column1')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class- in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php on line 102
+
+2021-03-26T05:17:38+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::get_billing_address() in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php:102
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): custom_orders_list_column_content('my-column1', 326)
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-posts-list-table.php(1282): do_action('manage_shop_ord...', 'my-column1', 326)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-list-table.php(1447): WP_Posts_List_Table->column_default(Object(WP_Post), 'my-column1')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/inclu in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php on line 102
+
+2021-03-26T05:17:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::get_billing_address() in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php:102
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): custom_orders_list_column_content('my-column1', 326)
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-posts-list-table.php(1282): do_action('manage_shop_ord...', 'my-column1', 326)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-list-table.php(1447): WP_Posts_List_Table->column_default(Object(WP_Post), 'my-column1')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/inclu in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php on line 102
+
+2021-03-26T05:38:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function related_product_col_data(), 1 passed in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php on line 294 and exactly 2 expected in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php:34
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(294): related_product_col_data('thumb')
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-posts-list-table.php(1282): do_action('manage_product_...', 'thumb', 315)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-admin/includes/class-wp-list-table.php(1447): WP_Posts_List_Table- in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning2plugin/Learning2plugin.php on line 34
+
+2021-03-26T07:56:47+00:00 CRITICAL Uncaught Error: Call to a member function get_checkout_fields() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/page-checkout.php:5
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/page-checkout.php on line 5
+
+2021-03-26T07:57:51+00:00 CRITICAL Uncaught Error: Call to a member function is_registration_enabled() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/page-checkout.php:7
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/themes/childtheme/page-checkout.php on line 7
+
+2021-03-26T08:04:02+00:00 CRITICAL Uncaught Error: Cannot use string offset as an array in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php:124
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): custom_override_checkout_fields_zsefshipping('')
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php(56): do_action('woocommerce_che...')
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/shortcodes/clas in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php on line 124
+
+2021-03-26T08:04:34+00:00 CRITICAL Uncaught Error: Cannot use string offset as an array in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php:124
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): custom_override_checkout_fields_zse('')
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php(56): do_action('woocommerce_che...')
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shor in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php on line 124
+
+2021-03-26T08:04:46+00:00 CRITICAL Uncaught Error: Cannot use string offset as an array in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php:124
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): custom_override_checkout_fields_zse('')
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php(56): do_action('woocommerce_che...')
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shor in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php on line 124
+
+2021-03-26T12:38:31+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1605): wc_get_template('single-product/...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): woocommerce_show_product_sale_flash('')
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.ph in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2021-03-26T12:39:05+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1605): wc_get_template('single-product/...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): woocommerce_show_product_sale_flash('')
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.ph in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2021-03-26T12:40:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php:105
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): bbloomer_cart_on_checkout_page_only(Object(WC_Checkout))
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php(22): do_action('woocommerce_bef...', Object(WC_Checkout))
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/w in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php on line 105
+
+2021-03-26T12:41:25+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1605): wc_get_template('single-product/...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): woocommerce_show_product_sale_flash('')
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.ph in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2021-03-26T12:42:54+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1605): wc_get_template('single-product/...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): woocommerce_show_product_sale_flash('')
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.ph in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2021-03-26T12:43:11+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1605): wc_get_template('single-product/...')
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): woocommerce_show_product_sale_flash('')
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.ph in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php on line 25
+
+2021-03-26T13:13:44+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php:110
+Stack trace:
+#0 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(292): bbloomer_cart_on_checkout_page_only(Object(WC_Checkout))
+#1 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php(22): do_action('woocommerce_bef...', Object(WC_Checkout))
+#4 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/cedcoss/L...')
+#5 /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins in /home/cedcoss/Local Sites/woocommerce-new-site/app/public/wp-content/plugins/Learning-3-Plugin/Learning-3-Plugin.php on line 110
+

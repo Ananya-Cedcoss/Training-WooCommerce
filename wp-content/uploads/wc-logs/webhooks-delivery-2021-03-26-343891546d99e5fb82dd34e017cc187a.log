@@ -1,0 +1,59 @@
+2021-03-26T06:57:25+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => ce7c5c5ece64cdcc0784a55f4cf6e34a
+            [Date] => Mar 26, 2021 @ 6:57
+            [URL] => http://localhost:10036
+            [Duration] => 6.58591
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.1.0 Hookshot (WordPress/5.7)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:10036/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => SdaXnf1xNgTaAv0TbXWPuZrHjJhzNoq2C7jrCMCJo2U=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => ce7c5c5ece64cdcc0784a55f4cf6e34a
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx/1.16.0
+                                    [date] => Fri, 26 Mar 2021 06:57:24 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [vary] => Accept-Encoding
+                                    [x-powered-by] => PHP/7.3.5
+                                    [link] => Array
+                                        (
+                                            [0] => <http://localhost:10036/wp-json/>; rel="https://api.w.org/"
+                                            [1] => <http://localhost:10036/wp-json/wp/v2/pages/62>; rel="alternate"; type="application/json"
+                                            [2] => <http://localhost:10036/>; rel=shortlink
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

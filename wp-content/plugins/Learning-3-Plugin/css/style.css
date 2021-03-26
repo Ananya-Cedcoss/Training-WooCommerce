@@ -1,0 +1,20 @@
+
+
+  /* The table containing the list of products and our custom elements */
+.woocommerce-cart .woocommerce-cart-form {
+    flex: 1 0 70%; /* 100% at small screens; 70% on larger screens */
+    margin-right: 30px;
+  }
+  
+  /* The element that contains the cart totals */
+  .woocommerce-cart .cart-collaterals {
+    flex: 1 0 30%; /* 100% at small screens; 30% on larger screens */
+    margin-left: 30px;
+  }
+  
+  /* Some minor tweak to make sure the cart totals fill the space */
+  .woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    padding: 0 20px 70px;
+  }
+  

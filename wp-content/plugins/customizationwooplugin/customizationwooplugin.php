@@ -369,11 +369,11 @@ function misha_adv_product_options(){
 add_action( 'woocommerce_process_product_meta', 'misha_save_fields', 10, 2 );
 function misha_save_fields( $id, $post ){
  
-	//if( !empty( $_POST['super_product'] ) ) {
+	if( !empty( $_POST['super_product'] ) ) {
 		update_post_meta( $id, 'super_product', $_POST['super_product'] );
-	//} else {
-	//	delete_post_meta( $id, 'super_product' );
-	//}
+	} else {
+		delete_post_meta( $id, 'super_product' );
+	}
  
 }
 

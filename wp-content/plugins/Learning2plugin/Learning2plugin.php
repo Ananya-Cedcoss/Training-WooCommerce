@@ -22,24 +22,27 @@ Author URI: http://woothemes.com/
 
 //manage_product_posts_custom_column
 add_filter( 'manage_edit-product_columns', 'related_product_col' );
-/** related_product_col function   */
-function related_product_col( $columns ) {
+/** Related_product_col function   */
+function related_product_col( $columns  ) {
 	$new_columns = ( is_array ( $columns) ) ? $columns : array();
-	$new_columns['RELATED'] = 'Related Product';
+	$new_columns['RELATED'] = 'View/Edit Product';
 	return $new_columns;
 }
 
 add_action( 'manage_product_posts_custom_column', 'related_product_col_data', 2 );
 /** Related_product_col_data function   */
-function related_product_col_data( $column ) {
-	global $post;
-	$related_product_ids = get_post_meta( $post->ID, '_related_ids', true );
+function related_product_col_data( $column   ) {
+	global $post;	
 	if ( $column == 'RELATED' ) {
-		if ( isset( $related_product_ids ) && !empty( $related_product_ids ) ) {
-			echo count( $related_product_ids ) . ' [' . implode( ', ', $related_product_ids ) . ']';
-		} else {
-			echo '--';
-	}
+		
+
+	$product = new WC_Product($post->ID);
+
+	//print_r($upsells);
+	
+
+echo '<span class="view"><a href="http://localhost:10036/product/'.$product->name.'/" rel="bookmark" aria-label="View “pRODUCT VARIAble”">View</a> | </span> <span class="edit"><a href="http://localhost:10036/wp-admin/post.php?post='.$post->ID.'&amp;action=edit" aria-label="Edit “'.$product->name.'”">Edit</a>  </span>';
+
 	}
 }
 
@@ -71,13 +74,12 @@ add_filter( 'manage_edit-shop_order_columns', 'custom_shop_order_column', 20 );
 /** Custom_shop_order_column function   */
 function custom_shop_order_column( $columns ) {
 	$reordered_columns = array();
-
 	// Inserting columns to a specific location.
 	foreach ( $columns as $key => $column){
 		$reordered_columns[$key] = $column;
 		if ( $key == 'order_status' ) {
 			// Inserting after "Status" column.
-			$reordered_columns['my-column1'] = __( 'Custom Field', 'theme_domain' );		
+			$reordered_columns['my-column1'] = __( 'Email Id', 'theme_domain' );		
 		}
 	}
 	return $reordered_columns;
@@ -87,29 +89,22 @@ function custom_shop_order_column( $columns ) {
 add_action( 'manage_shop_order_posts_custom_column' , 'custom_orders_list_column_content', 20, 2 );
 /** Custom_orders_list_column_content function   */
 function custom_orders_list_column_content( $column, $post_id ) {
-	switch ( $column )
-	{
+	switch ( $column ) {
 		case 'my-column1' :
 			// Get custom post meta data.
 			$my_var_one = get_post_meta( $post_id, '_the_meta_key1', true );
 			if ( ! empty ( $my_var_one ) )
 				echo $my_var_one;
-
 			// Testing (to be removed) - Empty value case.
 			else 
-				echo '<small>(<em>no value</em>)</small>';
-
+				$order = new WC_Order( $post_id );
+				echo $order -> get_billing_email();
 			break;
-
 	}
 }
 
 
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -118,40 +113,34 @@ function custom_orders_list_column_content( $column, $post_id ) {
 
 add_filter( 'bulk_actions-edit-shop_order', 'downloads_bulk_actions_edit_product', 20, 1 );
 
-
 function downloads_bulk_actions_edit_product( $actions ) {
-    $actions['write_downloads'] = __( 'Download orders', 'woocommerce' );
-    return $actions;
+	$actions['write_downloads'] = __( 'Download orders', 'woocommerce' );
+	return $actions;
 }
-
 // Make the action from selected orders
 add_filter( 'handle_bulk_actions-edit-shop_order', 'downloads_handle_bulk_action_edit_shop_order', 10, 3 );
 function downloads_handle_bulk_action_edit_shop_order( $redirect_to, $action, $post_ids ) {
-    if ( $action !== 'write_downloads' )
-        return $redirect_to; // Exit
+	if ( $action !== 'write_downloads' )
+		return $redirect_to; // Exit.
+	global $attach_download_dir, $attach_download_file; // ???
+	$processed_ids = array();
+	foreach ( $post_ids as $post_id ) {
+		$order = wc_get_order( $post_id );
+		$order_data = $order->get_data();
+		// Your code to be executed on each selected order
+		fwrite ( $myfile,
+			$order_data[ 'date_created' ]-> date( 'd/M/Y' ) . '; ' .
+			'#' . ( ( $order->get_type() === 'shop_order' ) ? $order->get_id() : $order->get_parent_id() ) . '; ' .
+			'#' . $order->get_id()
+		);
+		$processed_ids[] = $post_id;
+	}
 
-    global $attach_download_dir, $attach_download_file; // ???
-
-    $processed_ids = array();
-
-    foreach ( $post_ids as $post_id ) {
-        $order = wc_get_order( $post_id );
-        $order_data = $order->get_data();
-
-        // Your code to be executed on each selected order
-        fwrite($myfile,
-            $order_data['date_created']->date('d/M/Y') . '; ' .
-            '#' . ( ( $order->get_type() === 'shop_order' ) ? $order->get_id() : $order->get_parent_id() ) . '; ' .
-            '#' . $order->get_id()
-        );
-        $processed_ids[] = $post_id;
-    }
-
-    return $redirect_to = add_query_arg( array(
-        'write_downloads' => '1',
-        'processed_count' => count( $processed_ids ),
-        'processed_ids' => implode( ',', $processed_ids ),
-    ), $redirect_to );
+	return $redirect_to = add_query_arg( array(
+		'write_downloads' => '1',
+		'processed_count' => count( $processed_ids ),
+		'processed_ids' => implode( ',', $processed_ids ),
+	), $redirect_to );
 }
 
 // The results notice from bulk action on orders
@@ -161,12 +150,12 @@ function downloads_bulk_action_admin_notice() {
 
     $count = intval( $_REQUEST['processed_count'] );
 
-    printf( '<div id="message" class="updated fade"><p>' .
-        _n( 'Processed %s Order for downloads.',
-        'Processed %s Orders for downloads.',
-        $count,
-        'write_downloads'
-    ) . '</p></div>', $count );
+	printf( '<div id="message" class="updated fade"><p>' .
+		_n( 'Processed %s Order for downloads.',
+			'Processed %s Orders for downloads.',
+			$count,
+			'write_downloads'
+  ) . '</p></div>', $count );
 }
 
 
@@ -200,13 +189,13 @@ add_action( 'admin_notices', 'my_bulk_action_admin_notice' );
  
 function my_bulk_action_admin_notice() {
   if ( ! empty( $_REQUEST['bulk_emailed_posts'] ) ) {
-    $emailed_count = intval( $_REQUEST['bulk_emailed_posts'] );
-    printf( '<div id="message" class="updated fade">' .
-      _n( 'Emailed %s post in Bulk.',
-        'Emailed %s posts in Bulk.',
-        $emailed_count,
-        'email_to_eric'
-      ) . '</div>', $emailed_count );
+	$emailed_count = intval( $_REQUEST['bulk_emailed_posts'] );
+		printf ( '<div id="message" class="updated fade">' .
+			_n( 'Emailed %s post in Bulk.',
+				'Emailed %s posts in Bulk.',
+				$emailed_count,
+				'email_to_eric'
+		) . '</div>', $emailed_count );
   }
 }
 
@@ -217,25 +206,25 @@ function my_bulk_action_admin_notice() {
 
 
 function register_shipment_arrival_order_status() {
-    register_post_status( 'wc-arrival-shipment', array(
-        'label'                     => 'Shipment Arrival',
-        'public'                    => true,
-        'show_in_admin_status_list' => true,
-        'show_in_admin_all_list'    => true,
-        'exclude_from_search'       => false,
-        'label_count'               => _n_noop( 'Shipment Arrival <span class="count">(%s)</span>', 'Shipment Arrival <span class="count">(%s)</span>' )
-    ) );
+	register_post_status( 'wc-arrival-shipment', array(
+		'label'                     => 'Shipment Arrival',
+		'public'                    => true,
+		'show_in_admin_status_list' => true,
+		'show_in_admin_all_list'    => true,
+		'exclude_from_search'       => false,
+		'label_count'               => _n_noop( 'Shipment Arrival <span class="count">(%s)</span>', 'Shipment Arrival <span class="count">(%s)</span>' )
+	) );
 }
 add_action( 'init', 'register_shipment_arrival_order_status' );
 function add_awaiting_shipment_to_order_statuses( $order_statuses ) {
-    $new_order_statuses = array();
-    foreach ( $order_statuses as $key => $status ) {
-        $new_order_statuses[ $key ] = $status;
-        if ( 'wc-processing' === $key ) {
-            $new_order_statuses['wc-arrival-shipment'] = 'Shipment Arrival';
-        }
-    }
-    return $new_order_statuses;
+	$new_order_statuses = array();
+	foreach ( $order_statuses as $key => $status ) {
+		$new_order_statuses[ $key ] = $status;
+		if ( 'wc-processing' === $key ) {
+			$new_order_statuses[ 'wc-arrival-shipment' ] = 'Shipment Arrival';
+		}
+	}
+	return $new_order_statuses;
 }
 add_filter( 'wc_order_statuses', 'add_awaiting_shipment_to_order_statuses' );
 
@@ -246,15 +235,15 @@ add_filter( 'wc_order_statuses', 'add_awaiting_shipment_to_order_statuses' );
 add_filter( 'woocommerce_product_data_tabs', 'wk_custom_product_tab', 10, 1 );
 
 
-
+/** Wk_custom_product_tab */
 function wk_custom_product_tab( $default_tabs ) {
-    $default_tabs['custom_tab'] = array(
-        'label'   =>  __( 'Custom Tab', 'domain' ),
-        'target'  =>  'wk_custom_tab_data',
-        'priority' => 60,
-		'class'    => array( 'custom_tab', 'show_if_simple', 'show_if_variable' ), 
-    );
-    return $default_tabs;
+	$default_tabs['custom_tab'] = array(
+		'label'      =>  __( 'Custom Tab', 'domain' ),
+		'target' 	 =>  'wk_custom_tab_data',
+		'priority'   => 60,
+		'class'      => array( 'custom_tab', 'show_if_simple', 'show_if_variable' ), 
+	);
+	return $default_tabs;
 }
 
 
@@ -294,6 +283,17 @@ add_action( 'init', 'eg_schedule_midnight_log' );
  * A callback to run when the 'eg_midnight_log' scheduled action is run.
  */
 function eg_log_action_data() {
-	error_log( 'It is just after midnight on ' . date( 'Y-m-d' ) );
+	error_log( 'It is just after midnight on ' . date ( 'Y-m-d' ) );
 }
 add_action( 'eg_midnight_log', 'eg_log_action_data' );
+
+
+
+function eg_increase_time_limit( $time_limit ) {
+	return 120;
+}
+add_filter( 'action_scheduler_queue_runner_time_limit', 'eg_increase_time_limit' );
+
+
+
+
